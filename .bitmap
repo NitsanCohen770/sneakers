@@ -15,7 +15,7 @@
         "mainFile": "index.ts",
         "rootDir": "sneakers/app/sneakers-store",
         "nextVersion": {
-            "version": "patch",
+            "version": "0.0.2",
             "message": ""
         }
     },
