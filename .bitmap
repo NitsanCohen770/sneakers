@@ -13,55 +13,91 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/app/sneakers-store"
+        "rootDir": "sneakers/app/sneakers-store",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "containers/image-viewer": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/containers/image-viewer"
+        "rootDir": "sneakers/containers/image-viewer",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "containers/layout": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/containers/layout"
+        "rootDir": "sneakers/containers/layout",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "containers/product-details": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/containers/product-details"
+        "rootDir": "sneakers/containers/product-details",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "envs/my-react": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "demo/envs/my-react"
+        "rootDir": "demo/envs/my-react",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "hooks/use-fetch-product": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/hooks/use-fetch-product"
+        "rootDir": "sneakers/hooks/use-fetch-product",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "pages/about": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/pages/about"
+        "rootDir": "sneakers/pages/about",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "pages/product": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/pages/product"
+        "rootDir": "sneakers/pages/product",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "types/product-data": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "sneakers/types/product-data"
+        "rootDir": "sneakers/types/product-data",
+        "nextVersion": {
+            "version": "patch",
+            "message": ""
+        }
     },
     "$schema-version": "14.9.0"
 }
