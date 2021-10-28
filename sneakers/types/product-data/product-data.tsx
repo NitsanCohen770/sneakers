@@ -1,6 +1,6 @@
 export type ProductData = {
   title: string;
   description: string;
-  price: number;
+  currentPrice: number;
   prevPrice: number;
 };

@@ -9,11 +9,23 @@
  */
 
 {
+    "app/sneakers-store": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "sneakers/app/sneakers-store"
+    },
     "containers/image-viewer": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "sneakers/containers/image-viewer"
+    },
+    "containers/layout": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "sneakers/containers/layout"
     },
     "containers/product-details": {
         "scope": "",
@@ -32,6 +44,18 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "sneakers/hooks/use-fetch-product"
+    },
+    "pages/about": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "sneakers/pages/about"
+    },
+    "pages/product": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "sneakers/pages/product"
     },
     "types/product-data": {
         "scope": "",

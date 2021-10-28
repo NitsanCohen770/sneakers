@@ -39,9 +39,11 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@nitsan770/base-ui.header.header": "0.0.3",
         "@nitsan770/base-ui.pricing.price": "0.0.1",
         "@nitsan770/base-ui.ui.heading": "0.0.1",
         "@nitsan770/base-ui.ui.text": "0.0.1",
+        "@nitsan770/marketing-brand.theme.m-theme-provider": "0.0.1",
         "@nitsan770/marketing-brand.ui.add-to-cart-btn": "0.0.1",
         "@nitsan770/marketing-brand.ui.amount": "0.0.1",
         "@nitsan770/marketing-brand.ui.discount": "0.0.1",
@@ -53,6 +55,7 @@
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@teambit/harmony": "0.2.11",
         "@teambit/react.templates.themes.theme": "0.0.4",
+        "@types/react-router-dom": "5.3.2",
         "@typescript-eslint/eslint-plugin": "4.29.3",
         "classnames": "2.3.1",
         "eslint-import-resolver-node": "0.3.6",
@@ -60,7 +63,9 @@
         "eslint-plugin-jest": "24.4.0",
         "eslint-plugin-jsx-a11y": "6.4.1",
         "eslint-plugin-mdx": "1.15.0",
-        "eslint-plugin-react": "7.25.1"
+        "eslint-plugin-react": "7.25.1",
+        "react-router": "5.2.1",
+        "react-router-dom": "5.3.0"
       },
       "peerDependencies": {
         "@testing-library/react": "12.0.0",

@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './styles.module.scss';
 import { Heading } from '@nitsan770/base-ui.ui.heading';
 import { Price } from '@nitsan770/base-ui.pricing.price';
 import { Text } from '@nitsan770/base-ui.ui.text';
@@ -9,29 +10,30 @@ import { Heading as MarketHeading } from '@nitsan770/marketing-brand.ui.heading'
 import { useFetchProduct } from '@nitsan770/sneakers.hooks.use-fetch-product';
 
 export function ProductDetails() {
-  const { title, description, price, prevPrice } = useFetchProduct();
+  const data = useFetchProduct();
   return (
-    <div>
+    <div className={styles.container}>
       <span>
         <MarketHeading text="Happy sneakers store" />
       </span>
       <span>
-        <Heading title={title} />
+        <Heading>{data?.title}</Heading>
       </span>
       <span>
-        <Text text={description} />
+        <Text text={data?.description} />
+      </span>
+      <span className={styles.price}>
+        <Price value={data?.currentPrice} />{' '}
+        <Discount prevPrice={data?.prevPrice} price={data?.currentPrice} />
       </span>
       <span>
-        <Price value={price} /> <Discount prevPrice={prevPrice} price={price} />
+        <Price value={data?.prevPrice} isPrevious />
       </span>
-      <span>
-        <Price value={prevPrice} isPrevious />
-      </span>
-      <span>
+      <span className={styles.controls}>
         <Amount />
         <AddToCartBtn
           label="Add to cart"
-          addHandler={() => console.log('added to cart')}
+          addHandler={() => console.log('added')}
         />
       </span>
     </div>

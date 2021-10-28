@@ -1,0 +1,16 @@
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  > div:last-child {
+    margin-left: 24px;
+  }
+}
+
+.controls {
+  display: flex;
+  margin-top: 32px;
+  > div:last-child {
+    margin-left: 16px;
+  }
+}
