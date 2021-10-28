@@ -14,8 +14,7 @@ This is the main configuration file of your bit workspace. Here you can modify t
 
 - **.bitmap**
 
-This is an auto-generated file and includes the mapping of your components. There is one component included here. In order to remove this component you can run the following command.
-
+This is an auto-generated file and includes the mapping of your components. There is one component included here. In order to remove this component you can run the following command
 
 - **Demo Components**
 
@@ -26,7 +25,6 @@ bit remove "ui/*" --delete files
 ```
 
 This removes the components from the bitmap as well as removes the files.
-
 
 - **.gitignore**
 
