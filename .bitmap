@@ -53,6 +53,12 @@
         "mainFile": "index.ts",
         "rootDir": "sneakers/hooks/use-fetch-product"
     },
+    "hooks/use-hello": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "sneakers/hooks/use-hello"
+    },
     "pages/about": {
         "scope": "",
         "version": "0.0.2",
